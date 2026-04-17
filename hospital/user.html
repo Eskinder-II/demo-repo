@@ -1,0 +1,54 @@
+<html>
+<head> 
+<title> Examples of user form design </title>
+</head>
+<body bgcolor="#dcdcdc" >
+<h1><b> User registration Form</b></h1>
+<hr >
+<form action="" method="POST"> 
+<div class="userpage">
+<label for="Fname">Enter Uname</label>
+<input type="text"name="uname"minlength="3"maxlength="10" placeholder="PLS Enter User Name"required/>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+ <label for="Fname">Enter Password</label>
+<input type="password"name="pass" maxlength="10" required/> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+<label for="Fname">Enter Confirm Password</label>
+<input type="password"name="pass" maxlength="10" required/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<br/><br/>
+<label for="Fname">Enter your Age</label>
+<input type="number"name="age" max="50"min="18" value="Pls enter age"/> 
+<label for="pass">Enter Email</label>
+<input type="email"name="email"  /> &nbsp&nbsp&nbsp&nbsp
+<label for="file">attach your file</label>
+<input type="file"name ="file" value="select UR file" multiple ><br/><br/>
+<label for="BDR">Enter ur BDR date</label>
+<input type="date"name ="date" value="select UR bdr"><br/><br/>
+<label for="phone">attach your phone</label>
+<input type="tel"name="phone" placeholder="write ur phone here"pattern="[0-9]{3}"
+      aria-label="3-digit area code"size="2"/>
+<label for="year">Select year of graguation</label>
+<select name="year"value=”2019">
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2021</option>
+  <option value="2021">2023</option>
+  <option value="2022">2024</option>
+</select> <br/><br/>
+<label></b>Select Gender</b></label><br/><br/>
+<input type="radio" name="gender" value="Femal" /> Femal<br>
+<input type="radio" name="gender" value="Male" /> Male <br>
+<label></b>Select cource you take</b></label><br/>
+<input type="checkbox" name="html" value="on">HTML<br>
+<input type="checkbox" name="gsp" value="on">web programming<br>
+<input type="checkbox" name="html" value="on">Java<br>
+<input type="checkbox" name="gsp" value="on">C++<br>
+<p>Write your comment here : </p>
+<textarea rows="2" cols="20" name="comm"> 
+</textarea> <br/><br/>
+<input type="submit" name="Submit" value="Register" /> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+<input type="reset" value="Reset" /> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+</div>
+</form>
+</body>
+</html>
